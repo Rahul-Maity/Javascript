@@ -1,0 +1,14 @@
+const marvelHero=["thor","ironmen","Spidermen"];
+const dcHero=["superman","flash","batman"];
+const allHero=marvelHero.concat(dcHero);
+const allnewHero=[...marvelHero,...dcHero];
+// console.log(allnewHero);
+const anotherarray=[1,2,3,[4,5],[6,3,[9,0]],10];
+const real_another=anotherarray.flat(Infinity);
+// console.log(real_another);
+console.log(Array.isArray("Rahul"));
+console.log(Array.from("Rahul"));
+let score1=100;
+let score2=200;
+let score3=300;
+console.log(Array.of(score1,score2,score3));
