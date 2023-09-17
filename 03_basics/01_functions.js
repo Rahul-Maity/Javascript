@@ -11,4 +11,8 @@ function Loginmessage(name){
     }
     return `${name} logged in`
 }
-console.log(Loginmessage())
+// console.log(Loginmessage())
+function calculate(...num){
+    return num;
+}
+console.log(calculate(200,100,500))
